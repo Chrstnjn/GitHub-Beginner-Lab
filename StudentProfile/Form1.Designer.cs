@@ -35,11 +35,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(29, 80);
+            this.label1.Location = new System.Drawing.Point(51, 83);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(489, 29);
+            this.label1.Size = new System.Drawing.Size(465, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Student Profile — Christine Jane B. Lapuz";
+            this.label1.Text = "Student Profile — GitHub Beginner Lab.";
             // 
             // Form1
             // 
