@@ -8,7 +8,7 @@ namespace StudentProf.App
         public Form1()
         {
             InitializeComponent();
-            lblYearLevel.Text = "2";
+            lblYearLevel.Text = "3";
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
