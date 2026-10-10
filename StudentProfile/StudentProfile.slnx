@@ -1,3 +1,10 @@
 <Solution>
+  <Project Path="../StudentBusinesslogic/StudentBusinesslogic.csproj" Id="70ce23b8-bae0-40c7-a133-5437c7440479" />
+  <Project Path="../StudentDB/StudentDB.sqlproj" Id="8f855e5d-e0e6-48d5-b7e4-33ad64d557dd">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="../StudentModel/StudentModel.csproj" Id="685fa94a-ef68-4ea2-bffb-19ad52eb9b2f" />
+  <Project Path="../StudentProf.App/StudentProf.App.csproj" Id="1e9d991b-ab83-4630-ad58-9781d1086719" />
   <Project Path="StudentProfile.csproj" Id="131927e4-539b-46c7-92d8-b3144c73de3a" />
 </Solution>
