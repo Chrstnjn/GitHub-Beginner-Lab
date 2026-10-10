@@ -30,7 +30,7 @@
         {
             label1 = new Label();
             label2 = new Label();
-            label3 = new Label();
+            lblYearLevel = new Label();
             SuspendLayout();
             // 
             // label1
@@ -53,22 +53,22 @@
             label2.TabIndex = 3;
             label2.Text = "YEAR LEVEL:";
             // 
-            // label3
+            // lblYearLevel
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold);
-            label3.Location = new Point(299, 164);
-            label3.Name = "label3";
-            label3.Size = new Size(36, 37);
-            label3.TabIndex = 4;
-            label3.Text = "2";
+            lblYearLevel.AutoSize = true;
+            lblYearLevel.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold);
+            lblYearLevel.Location = new Point(299, 164);
+            lblYearLevel.Name = "lblYearLevel";
+            lblYearLevel.Size = new Size(36, 37);
+            lblYearLevel.TabIndex = 4;
+            lblYearLevel.Text = "2";
             // 
             // frmStudent
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(457, 353);
-            Controls.Add(label3);
+            Controls.Add(lblYearLevel);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "frmStudent";
@@ -81,6 +81,6 @@
 
         private Label label1;
         private Label label2;
-        private Label label3;
+        private Label lblYearLevel;
     }
 }

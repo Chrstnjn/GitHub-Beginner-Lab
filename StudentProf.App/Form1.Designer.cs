@@ -34,6 +34,8 @@
             label3 = new Label();
             txtPassword = new TextBox();
             btnLogin = new Button();
+            label4 = new Label();
+            lblYearLevel = new Label();
             SuspendLayout();
             // 
             // label1
@@ -90,11 +92,33 @@
             btnLogin.UseVisualStyleBackColor = true;
             btnLogin.Click += btnLogin_Click;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold);
+            label4.Location = new Point(19, 339);
+            label4.Name = "label4";
+            label4.Size = new Size(233, 37);
+            label4.TabIndex = 6;
+            label4.Text = "YEAR LEVEL:";
+            // 
+            // lblYearLevel
+            // 
+            lblYearLevel.AutoSize = true;
+            lblYearLevel.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold);
+            lblYearLevel.Location = new Point(249, 339);
+            lblYearLevel.Name = "lblYearLevel";
+            lblYearLevel.Size = new Size(36, 37);
+            lblYearLevel.TabIndex = 7;
+            lblYearLevel.Text = "2";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(457, 353);
+            ClientSize = new Size(457, 418);
+            Controls.Add(lblYearLevel);
+            Controls.Add(label4);
             Controls.Add(btnLogin);
             Controls.Add(txtPassword);
             Controls.Add(label3);
@@ -115,5 +139,7 @@
         private Label label3;
         private TextBox txtPassword;
         private Button btnLogin;
+        private Label label4;
+        private Label lblYearLevel;
     }
 }
