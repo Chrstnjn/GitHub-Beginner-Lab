@@ -29,23 +29,47 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold);
-            label1.Location = new Point(166, 158);
+            label1.Location = new Point(130, 99);
             label1.Name = "label1";
             label1.Size = new Size(176, 37);
             label1.TabIndex = 2;
             label1.Text = "STUDENT";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold);
+            label2.Location = new Point(73, 164);
+            label2.Name = "label2";
+            label2.Size = new Size(233, 37);
+            label2.TabIndex = 3;
+            label2.Text = "YEAR LEVEL:";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold);
+            label3.Location = new Point(299, 164);
+            label3.Name = "label3";
+            label3.Size = new Size(36, 37);
+            label3.TabIndex = 4;
+            label3.Text = "2";
             // 
             // frmStudent
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(457, 353);
+            Controls.Add(label3);
+            Controls.Add(label2);
             Controls.Add(label1);
             Name = "frmStudent";
             Text = "frmStudent";
@@ -56,5 +80,7 @@
         #endregion
 
         private Label label1;
+        private Label label2;
+        private Label label3;
     }
 }
